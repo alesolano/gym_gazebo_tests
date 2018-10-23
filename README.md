@@ -18,7 +18,7 @@ You need to have [Docker](https://docs.docker.com/install/) installed.
 Once you have it, clone the repository and build the docker image (this will take a lot of time... 4.19GB to be installed).
 
 ```
-git clone gym_gazebo_tests
+git clone https://github.com/alesolano/gym_gazebo_tests
 cd gym_gazebo_tests
 sudo docker build -t gym_gazebo_cartpole .
 ```
